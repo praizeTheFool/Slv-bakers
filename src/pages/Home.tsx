@@ -8,14 +8,14 @@ const Home = () => {
       {/* Hero Section */}
       <section className="relative h-[600px] overflow-hidden">
         <div className="absolute inset-0">
-          <img 
-            src="public/assets/hero-slv-bakers.jpg" 
-            alt="Fresh baked goods from SLV Bakers" 
+          <img
+            src="/assets/hero-slv-bakers.jpg"
+            alt="Fresh baked goods from SLV Bakers"
             className="w-full h-full object-cover"
           />
           <div className="absolute inset-0 bg-gradient-to-r from-background/95 via-background/80 to-background/50" />
         </div>
-        
+
         <div className="relative container mx-auto px-4 h-full flex items-center">
           <div className="max-w-2xl">
             <h1 className="text-5xl md:text-6xl font-bold mb-6 animate-fade-in">
@@ -25,7 +25,7 @@ const Home = () => {
               </span>
             </h1>
             <p className="text-xl text-muted-foreground mb-8 animate-fade-in">
-              Welcome to SLV Bakers - Where traditional recipes meet artisan craftsmanship. 
+              Welcome to SLV Bakers - Where traditional recipes meet artisan craftsmanship.
               Experience the warmth of freshly baked breads, cakes, and pastries made with the finest ingredients.
             </p>
             <div className="flex flex-wrap gap-4 animate-fade-in">
