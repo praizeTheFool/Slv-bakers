@@ -9,7 +9,7 @@ const Home = () => {
       <section className="relative h-[600px] overflow-hidden">
         <div className="absolute inset-0">
           <img 
-            src="/assets/hero-slv-bakers.jpg" 
+            src="public/assets/hero-slv-bakers.jpg" 
             alt="Fresh baked goods from SLV Bakers" 
             className="w-full h-full object-cover"
           />
